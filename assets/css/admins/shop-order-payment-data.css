@@ -1,0 +1,26 @@
+#shpg-payment-data {
+	clear: both;
+	padding-top: 0.01em;
+}
+
+#shpg-payment-data > h3 {
+	margin-top: 20px;
+}
+
+#shpg-payment-data > p {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#shpg-payment-data > p > strong,
+#shpg-payment-data > p > span {
+	display: inline-block;
+}
+
+#shpg-payment-data > p > strong {
+	width: 140px;
+}
+
+#shpg-payment-data > p > strong::after {
+	content: ":";
+}

@@ -1,0 +1,19 @@
+{
+  "name": "shoplic-payment-gateway",
+  "description": "NicePay, and NicePay billing payment gateways for WooCommerce.",
+  "version": "1.1.0",
+  "license": "GPL-2.0-or-later",
+  "scripts": {
+    "start": "wp-scripts start src/payment-fields.js src/wc-status-api-log.js --output-path=assets/js/dist",
+    "build": "wp-scripts build src/payment-fields.js src/wc-status-api-log.js --output-path=assets/js/dist",
+    "livereload": "livereload src"
+  },
+  "devDependencies": {
+    "@wordpress/i18n": "^4.3.0",
+    "@wordpress/scripts": "^20.0.2",
+    "livereload": "^0.9.3",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

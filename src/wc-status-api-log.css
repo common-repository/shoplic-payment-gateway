@@ -1,0 +1,22 @@
+#api-log-filter .column-id {
+}
+
+#api-log-filter .column-user {
+}
+
+#api-log-filter .column-datetime {
+}
+
+#api-log-filter .column-ip {
+}
+
+#api-log-filter .column-api {
+}
+
+#api-log-filter .column-result_code {
+}
+
+#api-log-filter .column-response {
+    width: 50%;
+    font-family: Consolas, Monaco, monospace;
+}
